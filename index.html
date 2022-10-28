@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+  <meta charset="utf-8">
+  <title>Samuel Vera - Diseñador Web</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+  <link rel="manifest" href="./manifest.json">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  <!--"Introduccion al Responsive Desing-->
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <script>
+      if("serviceWorker" in navigator){
+        navigator.serviceWorker.register("sw.js");
+      }
+  </script>
+  </head>
+  <body>
+  <header>
+    <div class="contenedor">
+        <div class="menu">
+          <!--para poner textos se usa la letra "p" -->
+    <p class="nombre">SAMUEL VERA</p>
+    <img class="menu-icon" src="menu.png">
+      <!--El nav sirve para tener el menu de navegacion-->
+    <nav>
+      <!--El "ul" es para las listas "listaDesrdenada"-->
+      <ul class="lista">
+        <!--"li" elementos de la lista-->
+        <li class="primer-elemento">Sobre mi</li>
+        <li>Servicios</li>
+        <li>Mis trabajos</li>
+        <li>¿Porque trabajar contigo?</li>
+        <li>Blog</li>
+        <li>Contacto</li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class="titular">
+      <!--"h1" es el encabezado principal-->
+      <h1>Samuel Vera</h1>
+      <h2>Diseñador & Desarrollador Web</h2>
+      <!--"a" etiqueta para los botones-->
+      <a>Ver mis trabajos</a>
+      </div>
+      </div>
+</header>
+<!--"sirve para separar secciones-->
+<section>
+<h3>Sobre mi </h3>
+  <div class="contenedor_sobremi">
+  <!--con esta etiqueta se insertan imagenes desde html-->
+  <img class="sobremi" src="sobremi.png" alt="Samuel Vera" title="Samuel Vera">
+  <div class="contenedor-parrafo-y-boton">
+    <p>Un desarrollador web es un programador especializado, o dedicado de forma
+      específica, en desarrollar aplicaciones de
+      la World Wide Web o aplicaciones distribuidas
+      en red que se ejecutan mediante HTTP desde un
+      servidor web a un navegador web.
+    </p>
+    <p>La mayoría de los Desarrolladores
+      Web trabajan en el software, en la base de datos o
+      en la codificación de un sitio web. Por otro lado,
+      hay otros quienes
+      lidian con el diseño y la interfaz de la página.</p>
+      <p class="parrafo-final">Sin embargo, hay expertos del área con la capacidad
+      de asumir los aspectos antes descritos, ofreciendo
+      un servicio más
+      completo, conocidos como Desarrolladores Full Stack.</p>
+    <a>VER MIS TRABAJOS</a>
+  </div>
+</div>
+</section>
+
+<seccion>
+  <h3>Servicios</h3>
+  <div class="contenedor-servicios">
+  <div class="servicio violeta">
+    <h4>Diseño Web</h4>
+    <p>Paginas atractivas y funcionales con el objetivo de satisfacer
+      todas tus expectativas. La importancia del diseño es fundamental
+      para tener exito y atraer a tus visitantes. Tambien lo es la volicidad
+      de carga de tu sitio web, deben ser rápidos para que el visitante tenga
+      la mejor experiencia.</p>
+      <img src="monitor.png">
+    </div>
+
+    <div class="servicio celeste">
+      <h4>Responsive Desing</h4>
+      <p>Responsive Web Design o también conocido como
+        Diseño Web Adaptable, es una técnica de diseño y
+        desarrollo web que mediante el uso de estructuras
+        flexibles (contenedores flexibles, imágenes y video
+        flexibles) y junto con Media Queries especificados en CSS.</p>
+        <img src="responsive.png">
+      </div>
+
+      <div class="servicio violeta">
+        <h4>SEO</h4>
+        <p>SEO, acrónimo de Search Engine Optimization -en
+          castellano optimización de motores de búsqueda-, son
+          el conjunto de acciones y técnicas que se emplean para
+          mejorar el posicionamiento (la visibilidad) en buscadores
+          de un sitio web en Internet.</p>
+          <img src="SEO.png">
+        </div>
+
+        <div class="servicio celeste">
+          <h4>Autoadministrable</h4>
+          <p>Solo a título de definición introductoria, digamos que
+            un sitio web autoadministrable es aquel que, una vez
+            puesto online por el diseñador o la agencia de diseño web, su propietario lo puede seguir gestionando
+            por sí mismo.</p>
+            <img src="administrable.png">
+          </div>
+
+          <div class="servicio violeta">
+            <h4>Mantenimiento</h4>
+            <p>El mantenimiento web están orientado a asegurar
+              que la página web ofrece una imagen totalmente
+              profesional de la empresa: sin errores, optimizada
+              y actualizada. Las tareas de mantenimiento web más
+              comunes son: Corregir errores y fallos que puedan
+              aparecer en
+              la web.</p>
+              <img src="mantenimiento.png">
+            </div>
+
+            <div class="servicio celeste">
+              <h4>Marketing Digital</h4>
+              <p>El mercadeo digital es el componente de
+                la mercadotecnia que utiliza internet y tecnologías
+                digitales en línea, como computadoras de escritorio,
+                teléfonos móviles y otras plataformas y medios digitales para
+                promover productos y servicios.</p>
+                <img src="marketin.png">
+              </div>
+            </div>
+</section>
+
+<seccion>
+  <div class="contenedor">
+    <h3>Mis trabajos</h3>
+<div class="owl-carousel">
+  <div><img src="foto1.jpg"></div>
+  <div><img src="foto2.jpg"></div>
+  <div><img src="foto3.jpg"></div>
+  <div><img src="foto4.jpg"></div>
+  <div><img src="foto5.jpg"></div>
+  </div>
+  </div>
+  </section>
+
+  <seccion>
+    <div class="contenedor">
+      <h3>¿Por que trabajar conmigo?</h3>
+      <div class="contenedor-porque">
+
+        <div class="porque-singular">
+          <img src="velocidad.png">
+          <h4>Velocidad</h4>
+          <p>Me aseguro de que tu web cargue entre 2 o 4 segundos
+          (depende de la cantidad de contenido del sitio). Si una web tarda
+          mas de 5 segundos en cargar, el 70% de los usuarios lo cierra
+          y no vuelve a entrar mas.</p>
+          </div>
+
+          <div class="porque-singular">
+            <img src="manto.png">
+            <h4>Mnatenimiento</h4>
+            <p>Mantengo una comunicacion constante con mi cliente para enseñarle
+            a modificar contenido mendiente el panel de Wordpress o para
+            cualquier duda/cambio que queriera hacer un sitio web.</p>
+            </div>
+
+            <div class="porque-singular">
+              <img src="mobile2.png">
+              <h4>Mobile Priority</h4>
+              <p>Cada vez  mas personas navegan desde sus celulares en cualquier
+              parte del mundo. Me aseguro de que tu web este optimizada
+              para cualquier tipo de dispositivo movil.</p>
+              </div>
+      </div>
+      </div>
+  </section>
+
+  <seccion id="blog">
+    <div class="contenedor">
+      <h3>Blog</h3>
+      <div class="contenedor-publicaciones">
+
+        <div class="publicacion">
+          <img src="blog1.jpg">
+          <h4>No alcanza con tener solamente pagina web</h4>
+          <p class="primer-parrafo">¿Quieres aprender cuales son las herramientas
+          que usan las mejores marcar para generar tráfico?</p>
+          <a>Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+
+          <div class="publicacion publicacion-segunda">
+            <img src="blog2.jpg">
+            <h4>¿Qué es el remarketing y como utilizarlo?</h4>
+            <p>El remarketin es una de las tecnicas mas utilizadas por las mejores compañias!
+            ¿Quieres saber de que se trata?</p>
+            <a>Leer más <i class="fas fa-arrow-right"></i></a>
+            </div>
+      </div>
+      </div>
+  </section>
+  <p></p>
+  <p></p>
+
+<section id="que-esperas">
+  <div class="contenedor">
+    <h3>¿Qué esperas para tener tu página web?</h3>
+    <a>CHARLEMOS</a>
+</div>
+</section>
+
+
+<section id="whatsaap">
+<a href="https://wa.me/7443128850">
+  <img src="whatsapp.png">
+</a>
+</section>
+
+<section>
+  <div id="app"></div>
+	<script src="index.js"></script>
+</section>
+
+<script src="owlcarousel/jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+$('.menu-icon').click(function(){
+$('header nav').slideToggle();
+
+})
+
+</body>
+</html>

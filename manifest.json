@@ -1,0 +1,17 @@
+{
+    "name": "Curso pagina web",
+    "short_name": "curso pagina web",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./sobremi.png",
+            "type": "image/png",
+            "sizes": "467x467"
+        }
+    ]
+}
